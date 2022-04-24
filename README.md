@@ -7,6 +7,8 @@ Next-Wordle is a clone of Wordle - the popular word guessing game we all know an
 > Language: TypeScript \
 > Framework: React18, Nextjs@12, TailwindCss and HeadlessUI
 
+[Try the live demo!](https://next-wordle-two.vercel.app/)
+
 ### To Run Locally:
 Clone the repository and perform the following command line actions in the root directory:
 

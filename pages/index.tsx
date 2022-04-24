@@ -1,12 +1,19 @@
 import { useState, useEffect } from "react";
 import type { NextPage } from "next";
+import Head from "next/head";
 import App from "../components/app";
 
 const Home: NextPage = () => {
   const [load, setLoad] = useState(false);
   useEffect(() => (window !== undefined ? setLoad(true) : setLoad(false)));
   return load ? (
-    <App />
+    <div>
+      <Head>
+        <title>Next-Wordle</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <App />
+    </div>
   ) : (
     <div className="h-screen flex justify-center items-center">
       <svg
