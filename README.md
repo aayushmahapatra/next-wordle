@@ -5,7 +5,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Next-Wordle is a clone of Wordle - the popular word guessing game we all know and love.
 
 > Language: TypeScript \
-> Framework: React18, Nextjs@12, TailwindCss and HeadlessUI
+> Framework: React18, Nextjs@12 and TailwindCss \
+> Library: HeadlessUI
 
 [Try the live demo!](https://next-wordle-two.vercel.app/)
 
